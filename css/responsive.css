@@ -291,6 +291,7 @@
     }
     #contact .contact-left-div{
         margin-bottom: 25px;
+        top: 0%;
     }
     #contact .divider-right::after,
     #contact .divider-left::after {
