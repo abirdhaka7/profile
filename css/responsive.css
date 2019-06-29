@@ -1,4 +1,8 @@
 @media (max-width: 575px) {
+    .navbar-light .navbar-brand img{
+        width: 100px;
+        height:auto;
+    }
     .nav-link{
         padding: 0;
     } 
@@ -8,6 +12,9 @@
         height: 430px;
         box-sizing: border-box;
     }
+    #banner-bg{
+        height: 660px;
+    }
     .banner-pic img {
         display: none;
     }
@@ -15,11 +22,16 @@
         top: 10%;
     }
     .banner-content #animate-text span{
-        letter-spacing: 0.2rem;
-        font: 700 20px "Oswald", sans-serif;
+        /* letter-spacing: 0.2rem; */
+        font: 700 15px "Oswald", sans-serif;
     }
-    #banner-bg{
-        height: 650px;
+    .banner-content #animate-text{
+        width: 110%;
+        margin: 0 auto;
+    }
+    .banner-content h1 {
+        padding-top: 70px;
+        font-size: 20px;
     }
     #about {
        padding-bottom: 40px;
@@ -135,26 +147,28 @@
     #about .about-content{
         top: 0;
     }
-    .banner-pic img {
+    #banner .banner-pic img {
         position: relative;
         width: 235px;
         top: 103px;
         height: 350px;
     }
-    .banner-content{
+    #banner .banner-content{
         top: 60%;
     }
-    
-    .banner-content #animate-text span{
+    #banner .banner-content #animate-text{
+        width: 150%;
+    }
+    #banner .banner-content #animate-text span{
         color: #222;
         font: 700 20px "Oswald", sans-serif;
         letter-spacing: 0.1rem;
         display: block;
     }
-    .banner-content h1{
+    #banner .banner-content h1{
         font-size: 20px;
     }
-    .banner-content a.button{
+    #banner .banner-content a.button{
         font-size: 10px;
     }
     #skill-bar-wrapper{
@@ -239,6 +253,12 @@
     .banner-pic img {
         top: 0;
     }
+    .banner-content #animate-text{
+        width: 170%;
+    }
+    .banner-content #animate-text span {
+       letter-spacing: 0.2rem;
+    }
     #about{
         height: 300px;
     }
@@ -293,7 +313,9 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {  
-
+    #banner-bg{
+        width: 110%;
+    }
     .banner-pic img {
       top: -64px;
     }

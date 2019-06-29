@@ -8,7 +8,7 @@ body{
 }
 html{
     scroll-behavior: smooth;
-    overflow-x:hidden;
+    overflow-X:hidden;
 }
 *,
 *::before,
@@ -157,7 +157,7 @@ nav a:focus {
     border-width: 4px 0;
     position: absolute;
     left: 0;
-    width: 30em;
+    width: 200%;
     margin: 0 auto;
 }
 
