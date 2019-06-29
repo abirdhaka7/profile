@@ -260,6 +260,9 @@
     .banner-content #animate-text span {
        letter-spacing: 0.2rem;
     }
+    .banner-content h1{
+        padding-top: 6px;
+    }
     #about{
         height: 300px;
     }
